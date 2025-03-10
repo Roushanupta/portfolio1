@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A personal portfolio website showcasing my work and skills.">
+  <title>Your Name - Portfolio</title>
+  <style>
+    /* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://img.freepik.com/free-vector/paper-style-dynamic-lines-background_23-2149008629.jpg?t=st=1741349307~exp=1741352907~hmac=5519b7effbfbac5b5a6dd6932aa83b3b52cb479a9bc620eb1768d1365e48eacb&w=1380");
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #434141;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+#home {
+  background: url('hero-image.jpg') center/cover no-repeat;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#home h1 {
+  font-size: 3rem;
+  color: white;
+}
+
+#home p {
+  font-size: 1.2rem;
+  color: white;
+}
+
+#home a {
+  color: #3498db;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h2 {
+color: #f4f4f4;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.portfolio-item {
+  display: inline-block;
+  width: 45%;
+  margin: 20px 2.5%;
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.portfolio-item h3 {
+  margin: 10px 0;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
+
+  </style>
+</head>
+<body>
+  <header id="header">
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home">
+    <div class="intro">
+      <h1>Hi, I'm Roushan Gupta</h1>
+      <p>I'm a Web Developer/Designer/Your Profession.</p>
+      <p><a href="#portfolio">See My Work</a></p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm passionate about my work. I specialize in JAVA , Python < HTML & CSS , and I love creating amazing projects. Check out my work below!</p>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <h2>My Work</h2>
+    <div class="portfolio-item">
+      <img src="project1.jpg" alt="Project 1">
+      <h3>Project 1</h3>
+      <p>Create a currency converter using java <br>
+        Based on the same arithmetic concepts of building a simple calculator, you can do a more . .</p>
+    </div>
+    <div class="portfolio-item">
+      <img src="project2.jpg" alt="Project 2">
+      <h3>Project 2</h3>
+      <p>Make a to-do list application <br>
+        A to-do list is a practical project that can be used in your daily life. </p>
+    </div>
+    <div class="portfolio-item">
+      <img src="project3.jpg" alt="Project 3">
+      <h3>Project 1</h3>
+      <p>Create a library management system <br>
+        Having all the  features of library management lick entry of book detail , serializing bbok and many more.</p>
+    </div>
+    <!-- Add more projects as needed -->
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you'd like to work together or ask any questions, feel free to reach out!</p>
+    <p>Phone: <a href="7667263326">7667263326</a></p>
+    <p>Email: <a href="roushangupta919@gmail.com">roushangupta919@gmail.com</a></p>
+    <p>Social: <a href="https://www.linkedin.com/in/roushan-gupta-b2124b2a5 ">LinkedIn</a></p>
+    <p>Hackerrank: <a href="hackerrank.com/profile/roushangupta919">Hackerrank</a></p>
+    <p>Leetcode: <a href="https://www.linkedin.com/in/roushan-gupta">Leetcode</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 roushan-gupta. All rights reserved.</p>
+  </footer>
+</body>
+</html>
